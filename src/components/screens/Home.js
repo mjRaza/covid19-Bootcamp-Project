@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Box } from "../Box";
+import React from "react";
 import { NationalCases } from "../NationalCases";
 import { GlobalCases } from "../GlobalCases";
 import logo from "../../logo.svg";
