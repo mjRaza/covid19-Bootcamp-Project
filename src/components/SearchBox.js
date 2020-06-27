@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import { Pie, Line,Doughnut,Bar } from "react-chartjs-2";
+import React from "react";
+import { Pie, Bar } from "react-chartjs-2";
 export const SearchBox = ({
   title,
   confirmed,
@@ -7,7 +7,6 @@ export const SearchBox = ({
   deaths,
   lastUpdate,
 }) => {
-    const [chartLabel, setChartLabel] = useState([]);
 
   //   {
   //   label: "confirmed",
@@ -37,32 +36,32 @@ export const SearchBox = ({
   const option = {
     responsive: "true",
   };
-const getChartData =  {
-      labels: ['chartLabel'],
-      datasets: [
-        {
-          label: 'confirmed',
-          data: confirmed,
-          // backgroundColor: '#000A12',
-          borderColor: '#f2b900',
-          borderWidth: 1
-        },
-        {
-          label: 'recovered',
-          data: recovered,
-          // backgroundColor: '#000A12',
-          borderColor: '#52cc99',
-          borderWidth: 1
-        },
-        {
-          label: 'deaths',
-          data: deaths,
-          // backgroundColor: '#000A12',
-          borderColor: '#f26353',
-          borderWidth: 1
-        },
-      ]
-  }
+// const getChartData =  {
+//       labels: ['chartLabel'],
+//       datasets: [
+//         {
+//           label: 'confirmed',
+//           data: confirmed,
+//           // backgroundColor: '#000A12',
+//           borderColor: '#f2b900',
+//           borderWidth: 1
+//         },
+//         {
+//           label: 'recovered',
+//           data: recovered,
+//           // backgroundColor: '#000A12',
+//           borderColor: '#52cc99',
+//           borderWidth: 1
+//         },
+//         {
+//           label: 'deaths',
+//           data: deaths,
+//           // backgroundColor: '#000A12',
+//           borderColor: '#f26353',
+//           borderWidth: 1
+//         },
+//       ]
+//   }
   return (
     <div style={{ marginTop: "2%" }}>
       <div className="cases-in-country">
