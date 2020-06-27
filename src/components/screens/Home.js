@@ -7,7 +7,7 @@ import { Navbarr } from "../NavBarr";
 export const Home = () => {
   return (
     <>
-      <Navbarr />
+      {/* <Navbarr /> */}
 
       <div className="container">
         <div className="logo">

@@ -37,6 +37,10 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+.cases-in-country {
+  text-align:center
+}
 .logo {
   width: 10%;
   margin-top: 2%;
@@ -77,4 +81,36 @@ h1 {
 }
 .box-3 {
   background-color: green;
+}
+
+.search-container {
+  margin: 0% auto;
+  
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.seach-main {
+  width: 95%;
+  margin: 1% auto;
+  margin-bottom: 0px;
+}
+.chart-container {
+  width: 850px;
+  margin: 0 auto;
+  margin-bottom: 10px ;
+
+  height: 45vh;
+  /* width: 80vw; */
+}
+.navbar-toggler {
+  background-color: white;
+}
+.search-box-main{
+  margin: 0 auto;
+  
+  display: flex;
+
+  width: 1050px;
+
+  justify-content: space-between;
 }
