@@ -5,10 +5,7 @@ export const Search = () => {
   const [countries, setCountries] = useState([]);
   const [searchItem, setSearchItem] = useState([]);
   const [data, setData] = useState([]);
-  let count = 1;
   useEffect(() => {
-    count += 1;
-    console.log(count);
     fetch("https://covid19.mathdro.id/api/countries/")
       .then((res) => res.json())
       .then((result) => {
