@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Form, NavDropdown } from "react-bootstrap";
-import { GlobalBox } from "../components/GlobalBox";
+import { Form } from "react-bootstrap";
 import { SearchBox } from "./SearchBox";
 export const Search = () => {
   const [countries, setCountries] = useState([]);

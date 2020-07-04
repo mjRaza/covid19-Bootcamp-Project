@@ -2,7 +2,6 @@ import React from "react";
 import { NationalCases } from "../NationalCases";
 import { GlobalCases } from "../GlobalCases";
 import logo from "../../logo.svg";
-import { Navbarr } from "../NavBarr";
 
 export const Home = () => {
   return (
