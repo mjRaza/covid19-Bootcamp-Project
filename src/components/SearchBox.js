@@ -7,7 +7,6 @@ export const SearchBox = ({
   deaths,
   lastUpdate,
 }) => {
-
   //   {
   //   label: "confirmed",
   //   data: confirmed,
@@ -36,42 +35,40 @@ export const SearchBox = ({
   const option = {
     responsive: "true",
   };
-// const getChartData =  {
-//       labels: ['chartLabel'],
-//       datasets: [
-//         {
-//           label: 'confirmed',
-//           data: confirmed,
-//           // backgroundColor: '#000A12',
-//           borderColor: '#f2b900',
-//           borderWidth: 1
-//         },
-//         {
-//           label: 'recovered',
-//           data: recovered,
-//           // backgroundColor: '#000A12',
-//           borderColor: '#52cc99',
-//           borderWidth: 1
-//         },
-//         {
-//           label: 'deaths',
-//           data: deaths,
-//           // backgroundColor: '#000A12',
-//           borderColor: '#f26353',
-//           borderWidth: 1
-//         },
-//       ]
-//   }
+  //
+  // const getChartData =  {
+  //       labels: ['chartLabel'],
+  //       datasets: [
+  //         {
+  //           label: 'confirmed',
+  //           data: confirmed,
+  //           // backgroundColor: '#000A12',
+  //           borderColor: '#f2b900',
+  //           borderWidth: 1
+  //         },
+  //         {
+  //           label: 'recovered',
+  //           data: recovered,
+  //           // backgroundColor: '#000A12',
+  //           borderColor: '#52cc99',
+  //           borderWidth: 1
+  //         },
+  //         {
+  //           label: 'deaths',
+  //           data: deaths,
+  //           // backgroundColor: '#000A12',
+  //           borderColor: '#f26353',
+  //           borderWidth: 1
+  //         },
+  //       ]
+  //   }
   return (
     <div style={{ marginTop: "2%" }}>
       <div className="cases-in-country">
         <h1>{title}</h1>
       </div>
       <div class="chart-container">
-        <Bar
-          data={data}
-          options={option}
-        />
+        <Bar data={data} options={option} />
       </div>
       <div className="search-box-main">
         <div>
